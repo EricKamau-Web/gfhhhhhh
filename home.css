@@ -1,0 +1,44 @@
+h1{
+    text-align: center;
+    color: blueviolet;
+    background-color: beige;
+    line-height: 100px;
+    text-shadow: 4px 12px 12px yellow;
+}
+#paragraph1{
+    font-weight: bold;
+}
+#paragraph2{
+    font-style: italic;
+}
+.main{
+    display:flex;
+}
+.course1{
+    background-color: aqua;
+    margin-right:10px ;
+    color: red;
+}
+.course2{
+    background-color: yellow;
+    margin-right: 10px;
+    color: black;
+}
+.course3{
+    background-color: chartreuse;
+    color: red;
+}
+.course1,.course2,.course3{
+    padding: 20px;
+    box-shadow: 4px 6px 6px gray;
+}
+.course1:hover,.course2:hover,.course3:hover{
+    background-color: white;
+}
+img{
+    width: 250px;
+    height: 200px;
+}
+img:hover{
+    opacity: 0.8;
+}
